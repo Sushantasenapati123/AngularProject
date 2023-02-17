@@ -1,0 +1,123 @@
+
+<h1 style="text-align: center;">Product Crud Operation</h1>
+
+<br>
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-md-4">
+
+            <input type="number" hidden name="pid" class="form-control" #pid="ngModel" [(ngModel)]="addData.pid">
+
+            <label for="pname">Product Name</label>
+
+            <input type="text" name="pname" class="form-control" placeholder="Enter Product Name" #pname="ngModel" [(ngModel)]="addData.pname">
+
+        </div>
+
+        <div class="col-md-4">
+
+            <label for="price">Product Price</label>
+
+            <input type="number" name="price" class="form-control" placeholder="Enter Product Price" #price="ngModel" [(ngModel)]="addData.price">
+
+        </div>
+
+        <div class="col-md-4">
+
+            <label for="pqty">Product Quantity</label>
+
+            <input type="number" name="pqty" class="form-control" placeholder="Enter Product Quantity" #pqty="ngModel" [(ngModel)]="addData.pqty">
+
+        </div>
+
+    </div>
+
+    <br>
+
+    <div class="row">
+
+        <div class="col-md-8"></div>
+
+        <div class="col-md-2">
+            <button (click)="Save()" class="btn btn-success btn-block">Submit</button><br>
+        </div>
+
+        <div class="col-md-2">
+
+            <button type="reset" class="btn btn-danger btn-block" (click)="onReset()">Reset</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+<table class="table table-hover">
+
+    <thead class="thead-dark">
+
+        <tr>
+
+            <th>Product ID</th>
+
+            <th>Product Name</th>
+
+            <th>Product Price</th>
+
+            <th>Quantity</th>
+
+            <th>Action</th>
+
+        </tr>
+
+    </thead>
+
+    <tbody>
+
+        <tr *ngFor="let prod of View">
+
+            <td>{{prod.pid}}</td>
+
+            <td>{{prod.pname}}</td>
+
+            <td>{{prod.price}}</td>
+
+            <td>{{prod.pqty}}</td>
+
+            <td>
+
+                <div class="dropdown">
+
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                      Action
+
+                    </button>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+                      <a class="dropdown-item" href="#" (click)="Edit(prod)">Edit</a>
+
+                      <a class="dropdown-item" href="#" (click)="Delete(prod.pid)">Delete</a>
+
+
+
+                    </div>
+
+                  </div>
+
+            </td>
+
+        </tr>
+
+    </tbody>
+
+</table>
+
