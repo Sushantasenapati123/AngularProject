@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sushanta.senapati\\Desktop\\angular\\AngularProject\\ApiForAngular\\ApiForAngular\\ApiForAngular.csproj": {}
+    "C:\\Users\\sushanta.senapati\\Desktop\\Angular\\AngularProject\\ApiForAngular\\ApiForAngular\\ApiForAngular.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sushanta.senapati\\Desktop\\angular\\AngularProject\\ApiForAngular\\ApiForAngular\\ApiForAngular.csproj": {
+    "C:\\Users\\sushanta.senapati\\Desktop\\Angular\\AngularProject\\ApiForAngular\\ApiForAngular\\ApiForAngular.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sushanta.senapati\\Desktop\\angular\\AngularProject\\ApiForAngular\\ApiForAngular\\ApiForAngular.csproj",
+        "projectUniqueName": "C:\\Users\\sushanta.senapati\\Desktop\\Angular\\AngularProject\\ApiForAngular\\ApiForAngular\\ApiForAngular.csproj",
         "projectName": "ApiForAngular",
-        "projectPath": "C:\\Users\\sushanta.senapati\\Desktop\\angular\\AngularProject\\ApiForAngular\\ApiForAngular\\ApiForAngular.csproj",
+        "projectPath": "C:\\Users\\sushanta.senapati\\Desktop\\Angular\\AngularProject\\ApiForAngular\\ApiForAngular\\ApiForAngular.csproj",
         "packagesPath": "C:\\Users\\sushanta.senapati\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sushanta.senapati\\Desktop\\angular\\AngularProject\\ApiForAngular\\ApiForAngular\\obj\\",
+        "outputPath": "C:\\Users\\sushanta.senapati\\Desktop\\Angular\\AngularProject\\ApiForAngular\\ApiForAngular\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\sushanta.senapati\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

@@ -56,15 +56,6 @@ namespace ApiForAngular.Repository
 
             cn.Close();
             return cust;
-
-
-
-
-
-
-
-
-
      
         }
         catch (Exception ex)
@@ -77,6 +68,7 @@ namespace ApiForAngular.Repository
     {
         try
         {
+                var x=0;
             var cn = CreateConnection();
             if (cn.State == ConnectionState.Closed) cn.Open();
             DynamicParameters param = new DynamicParameters();
@@ -84,15 +76,27 @@ namespace ApiForAngular.Repository
             param.Add("@pname", om.pname);
             param.Add("@price", om.price);
             param.Add("@pqty", om.pqty);
+            if(om.pid==0)
+                {
+                    param.Add("@action", "I");
 
-            var x = cn.Execute("save_update", param, commandType: CommandType.StoredProcedure);
+                    x = cn.Execute("op_product_tbl", param, commandType: CommandType.StoredProcedure);
+
+                }
+                else
+                {
+                    param.Add("@action", "U");
+
+                    x = cn.Execute("op_product_tbl", param, commandType: CommandType.StoredProcedure);
+
+                }
 
 
 
 
 
-         
-            cn.Close();
+
+                cn.Close();
             return x;
         }
 

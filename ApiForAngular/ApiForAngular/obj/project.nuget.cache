@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i+AmN/rlH/BwUYAre54fypymVlWntmXrdya/DBa74Nh/8Gj6F29qSxo0fIl/TRHcRpS8vap7qYbXxHf7HDbJFQ==",
+  "dgSpecHash": "IWTy/TN00lqaSuVG/PJDQPQh1auTpP+c4VQzBtOq9KwtcSdoWUPJuadSjNqLJcJgj06jXNt/2r5w0Nl5gNidYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sushanta.senapati\\Desktop\\angular\\AngularProject\\ApiForAngular\\ApiForAngular\\ApiForAngular.csproj",
+  "projectFilePath": "C:\\Users\\sushanta.senapati\\Desktop\\Angular\\AngularProject\\ApiForAngular\\ApiForAngular\\ApiForAngular.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sushanta.senapati\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\sushanta.senapati\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
